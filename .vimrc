@@ -21,12 +21,12 @@ nnoremap <silent> <C-c> <ESC>
 inoremap <silent> jj <ESC>
 inoremap <silent> ;; <ESC>A;<ESC>
 
-nnoremap <silent> J j
-nnoremap <silent> K k
-nnoremap <silent> <C-j> j
-nnoremap <silent> <C-k> k
-nnoremap <silent> j <C-e>j
-nnoremap <silent> k <C-y>k
+nnoremap <silent> J gj
+nnoremap <silent> K gk
+nnoremap <silent> <C-j> gj
+nnoremap <silent> <C-k> gk
+nnoremap <silent> j <C-e>gj
+nnoremap <silent> k <C-y>gk
 
 nnoremap <silent> <space> viw
 nnoremap <silent> <space><space> #*
