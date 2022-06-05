@@ -14,12 +14,17 @@ set showmatch     " highlight brackets
 set hlsearch      " search with highlight
 set incsearch     " jump to the first match while searching
 
-inoremap <silent> jj <ESC>
-inoremap <silent> ;; <ESC>A;<ESC>
-
 " avoid or terminate visual mode bugs of IDE vim plugins
 nnoremap <silent> u u<ESC>
 nnoremap <silent> <C-c> <ESC>
+
+inoremap <silent> jj <ESC>
+inoremap <silent> ;; <ESC>A;<ESC>
+
+nnoremap <silent> J j
+nnoremap <silent> K k
+nnoremap <silent> j <C-e>j
+nnoremap <silent> k <C-y>k
 
 nnoremap <silent> <space> viw
 nnoremap <silent> <space><space> #*
