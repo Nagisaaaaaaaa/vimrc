@@ -23,6 +23,8 @@ inoremap <silent> ;; <ESC>A;<ESC>
 
 nnoremap <silent> J j
 nnoremap <silent> K k
+nnoremap <silent> <C-j> j
+nnoremap <silent> <C-k> k
 nnoremap <silent> j <C-e>j
 nnoremap <silent> k <C-y>k
 
