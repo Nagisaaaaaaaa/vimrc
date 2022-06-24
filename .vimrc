@@ -14,10 +14,6 @@ set showmatch     " highlight brackets
 set hlsearch      " search with highlight
 set incsearch     " jump to the first match while searching
 
-" avoid or terminate visual mode bugs of IDE vim plugins
-nnoremap <silent> u u<ESC>
-nnoremap <silent> <C-c> <ESC>
-
 inoremap <silent> jj <ESC>
 inoremap <silent> ;; <ESC>A;<ESC>
 
