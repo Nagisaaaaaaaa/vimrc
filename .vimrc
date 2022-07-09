@@ -30,6 +30,8 @@ inoremap <silent> <C-j> <DOWN>
 inoremap <silent> <C-k> <UP>
 inoremap <silent> <C-h> <LEFT>
 inoremap <silent> <C-l> <RIGHT>
+inoremap <silent> <C-m> <CR>
+inoremap <silent> <C-;> <C-h>
 
 nnoremap <silent> <space> viw
 vnoremap <silent> <space> y/<C-r>"<CR>N
