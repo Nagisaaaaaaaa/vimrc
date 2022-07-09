@@ -32,7 +32,6 @@ inoremap <silent> <C-h> <LEFT>
 inoremap <silent> <C-l> <RIGHT>
 
 nnoremap <silent> <space> viw
-nnoremap <silent> <space><space> #*
 vnoremap <silent> <space> y/<C-r>"<CR>N
 
 nnoremap <silent> <A-j> :m+1<CR>
