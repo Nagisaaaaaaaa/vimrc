@@ -11,11 +11,29 @@ set cindent       " further optimize for c
 
 set showmatch     " highlight brackets
 
+set noic          " do not ignore case
 set hlsearch      " search with highlight
 set incsearch     " jump to the first match while searching
 
-inoremap <silent> jj <ESC>
-inoremap <silent> ;; <ESC>A;<ESC>
+
+
+inoremap <silent> a; <ESC>
+inoremap <silent> j; <ESC>A;<ESC>
+
+inoremap <silent> <C-j> <DOWN>
+inoremap <silent> <C-k> <UP>
+inoremap <silent> <C-h> <LEFT>
+inoremap <silent> <C-l> <RIGHT>
+inoremap <silent> <C-e> <ESC>ea
+inoremap <silent> <C-b> <ESC>bi
+
+inoremap <silent> <C-m> <CR>
+inoremap <silent> <C-;> <C-h>
+
+inoremap <silent> <C-c> <ESC>ciw
+inoremap <silent> <C-v> <ESC>pa
+
+
 
 nnoremap <silent> j gj
 nnoremap <silent> k gk
@@ -26,20 +44,24 @@ nnoremap <silent> L l
 nnoremap <silent> <C-j> <C-e>gj
 nnoremap <silent> <C-k> <C-y>gk
 
-inoremap <silent> <C-j> <DOWN>
-inoremap <silent> <C-k> <UP>
-inoremap <silent> <C-h> <LEFT>
-inoremap <silent> <C-l> <RIGHT>
-inoremap <silent> <C-m> <CR>
-inoremap <silent> <C-;> <C-h>
-
 nnoremap <silent> <space> viw
-vnoremap <silent> <space> y/<C-r>"<CR>N
+
+nnoremap <silent> < <<
+nnoremap <silent> > >>
 
 nnoremap <silent> <A-j> :m+1<CR>
 nnoremap <silent> <A-k> :m-2<CR>
+
+nnoremap <silent> G Gzz
 
 nnoremap <silent> <C-s> :w<CR>
 
 nnoremap <silent> <C-[> {
 nnoremap <silent> <C-]> }
+
+
+
+vnoremap <silent> <space> y/<C-r>"<CR>N
+
+vnoremap <silent> i I
+vnoremap <silent> a A
