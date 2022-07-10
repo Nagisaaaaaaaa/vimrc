@@ -46,13 +46,18 @@ nnoremap <silent> <C-k> <C-y>gk
 
 nnoremap <silent> <space> viw
 
+nnoremap <silent> z zz
+nnoremap <silent> Z zz
+nnoremap <silent> m M
+nnoremap <silent> <C-z> zz
+nnoremap <silent> <C-m> M
+
 nnoremap <silent> < <<
 nnoremap <silent> > >>
 
 nnoremap <silent> <A-j> :m+1<CR>
 nnoremap <silent> <A-k> :m-2<CR>
 
-nnoremap <silent> z zz
 nnoremap <silent> G Gzz
 
 nnoremap <silent> <C-s> :w<CR>
