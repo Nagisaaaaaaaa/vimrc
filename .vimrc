@@ -20,15 +20,17 @@ set incsearch     " jump to the first match while searching
 inoremap <silent> a; <ESC>
 inoremap <silent> f; <ESC>A;<ESC>
 
+inoremap <silent> ' <RIGHT>
+inoremap <silent> <CR> '
+inoremap <silent> <C-m> <CR>
+inoremap <silent> <C-;> <C-h>
+
 inoremap <silent> <C-j> <DOWN>
 inoremap <silent> <C-k> <UP>
 inoremap <silent> <C-h> <LEFT>
 inoremap <silent> <C-l> <RIGHT>
 inoremap <silent> <C-e> <ESC>ea
 inoremap <silent> <C-b> <ESC>bi
-
-inoremap <silent> <C-m> <CR>
-inoremap <silent> <C-;> <C-h>
 
 inoremap <silent> <C-c> <ESC>ciw
 inoremap <silent> <C-v> <ESC>pa
