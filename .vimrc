@@ -50,9 +50,10 @@ nnoremap <silent> <space> viw
 
 nnoremap <silent> z zz
 nnoremap <silent> Z zz
-nnoremap <silent> m M
 nnoremap <silent> <C-z> zz
-nnoremap <silent> <C-m> M
+
+nnoremap <silent> m M
+nnoremap <silent> <C-m> o
 
 nnoremap <silent> < <<
 nnoremap <silent> > >>
