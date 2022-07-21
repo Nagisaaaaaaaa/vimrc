@@ -19,6 +19,7 @@ set incsearch     " jump to the first match while searching
 
 inoremap <silent> a; <ESC>
 inoremap <silent> a' <ESC>A;<ESC>
+inoremap <silent> a<CR> <ESC>A;<CR>
 
 inoremap <silent> ' <RIGHT>
 inoremap <silent> <CR> '
