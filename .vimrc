@@ -72,7 +72,7 @@ nnoremap <silent> <C-]> }
 
 
 
-vnoremap <silent> <space> y/<C-r>"<CR>N
+vnoremap <silent> <space> y/\V<C-r>"<CR>N
 
 vnoremap <silent> i I
 vnoremap <silent> a A
