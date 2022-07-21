@@ -32,6 +32,7 @@ inoremap <silent> <C-h> <LEFT>
 inoremap <silent> <C-l> <RIGHT>
 inoremap <silent> <C-e> <ESC>ea
 inoremap <silent> <C-b> <ESC>bi
+inoremap <silent> <C-a> <ESC>A
 
 inoremap <silent> <C-c> <ESC>ciw
 inoremap <silent> <C-v> <ESC>pa
