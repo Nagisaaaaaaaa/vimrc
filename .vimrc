@@ -21,10 +21,9 @@ inoremap <silent> aj <ESC>
 inoremap <silent> a; <ESC>A;<ESC>
 inoremap <silent> a' <ESC>A;<CR>
 
-inoremap <silent> ' <RIGHT>
+inoremap <silent> ' <C-h>
 inoremap <silent> <CR> '
-inoremap <silent> <C-m> <CR>
-inoremap <silent> <C-;> <C-h>
+inoremap <silent> <C-;> <CR>
 
 inoremap <silent> <C-j> <DOWN>
 inoremap <silent> <C-k> <UP>
@@ -55,7 +54,7 @@ nnoremap <silent> Z zz
 nnoremap <silent> <C-z> zz
 
 nnoremap <silent> m M
-nnoremap <silent> <C-m> o
+nnoremap <silent> <C-;> o
 
 nnoremap <silent> < <<
 nnoremap <silent> > >>
