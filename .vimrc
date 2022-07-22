@@ -75,3 +75,6 @@ vnoremap <silent> <space> y/\V<C-r>"<CR>N
 
 vnoremap <silent> i I
 vnoremap <silent> a A
+
+vnoremap <silent> n <ESC>zc
+vnoremap <silent> m <ESC>zo
