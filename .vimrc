@@ -58,6 +58,10 @@ nnoremap <silent> <C-j> <C-e>gj
 nnoremap <silent> <C-k> <C-y>gk
 nnoremap <silent> <C-h> h
 nnoremap <silent> <C-l> l
+nnoremap <silent> <C-S-j> <C-w>j
+nnoremap <silent> <C-S-k> <C-w>k
+nnoremap <silent> <C-S-h> <C-w>h
+nnoremap <silent> <C-S-l> <C-w>l
 
 nnoremap <silent> <space> viw
 
