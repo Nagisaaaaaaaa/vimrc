@@ -30,6 +30,8 @@ set noic          " do not ignore case
 set hlsearch      " search with highlight
 set incsearch     " jump to the first match while searching
 
+set ideajoin      " use Idea to join lines smartly
+
 
 
 inoremap <silent> aj <ESC>
@@ -52,17 +54,14 @@ inoremap <silent> <C-v> <ESC>pa
 
 nnoremap <silent> j gj
 nnoremap <silent> k gk
-nnoremap <silent> J <C-e>gj
-nnoremap <silent> K <C-y>gk
-nnoremap <silent> H h
-nnoremap <silent> L l
 nnoremap <silent> <C-j> <C-e>gj
 nnoremap <silent> <C-k> <C-y>gk
+nnoremap <silent> <C-h> h
+nnoremap <silent> <C-l> l
 
 nnoremap <silent> <space> viw
 
 nnoremap <silent> z zz
-nnoremap <silent> Z zz
 nnoremap <silent> <C-z> zz
 
 nnoremap <silent> m M
