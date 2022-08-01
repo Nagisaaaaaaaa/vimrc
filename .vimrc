@@ -58,8 +58,8 @@ nnoremap <silent> j gj
 nnoremap <silent> k gk
 nnoremap <silent> <C-j> <C-e>gj
 nnoremap <silent> <C-k> <C-y>gk
-nnoremap <silent> <C-h> 0
-nnoremap <silent> <C-l> ^
+nnoremap <silent> <C-h> ^
+nnoremap <silent> <C-l> $
 nnoremap <silent> <C-S-j> <C-w>j
 nnoremap <silent> <C-S-k> <C-w>k
 nnoremap <silent> <C-S-h> <C-w>h
