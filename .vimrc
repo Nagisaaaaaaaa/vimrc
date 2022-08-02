@@ -13,28 +13,69 @@
 
 
 
-set expandtab     " replace \t with \s
-set tabstop=2     " width of \t
-set softtabstop=2 " insert mode indent width
-set shiftwidth=2  " normal and visual mode indent width
-set shiftround    " indent width is an integral multiple of `shiftwidth`
-
-set autoindent    " the new line uses the same indent style as the last line
-set smartindent   " braces automatically add indents
-set smarttab      " automatically judges indent width
-set cindent       " further optimize for c
-
-set showmatch     " highlight brackets
-
-set noic          " do not ignore case
-set hlsearch      " search with highlight
-set incsearch     " jump to the first match while searching
-
-set history=1000  " use large history
-
-set ideajoin      " use Idea to join lines smartly
 
 
+" settings
+
+set expandtab         " replace \t with \s
+set tabstop=2         " width of \t
+set softtabstop=2     " insert mode indent width
+set shiftwidth=2      " normal and visual mode indent width
+set shiftround        " indent width is an integral multiple of `shiftwidth`
+
+set autoindent        " the new line uses the same indent style as the last line
+set smartindent       " braces automatically add indents
+set smarttab          " automatically judges indent width
+set cindent           " further optimize for c
+
+set showmatch         " highlight brackets
+
+set noic              " do not ignore case
+set hlsearch          " search with highlight
+set incsearch         " jump to the first match while searching
+
+set clipboard=unnamed " use system clipboard
+set history=1000      " use large history
+
+set ideajoin          " use Idea to join lines smartly
+
+
+
+
+
+" register usings
+
+nnoremap <silent> y "+y
+nnoremap <silent> Y "+Y
+nnoremap <silent> p "+p
+nnoremap <silent> P "+P
+nnoremap <silent> d "+d
+nnoremap <silent> D "+D
+nnoremap <silent> c "+c
+nnoremap <silent> C "+C
+nnoremap <silent> x "+x
+nnoremap <silent> X "+X
+nnoremap <silent> s "+s
+nnoremap <silent> S "+S
+
+vnoremap <silent> y "+y
+vnoremap <silent> Y "+Y
+vnoremap <silent> p "+p
+vnoremap <silent> P "+P
+vnoremap <silent> d "+d
+vnoremap <silent> D "+D
+vnoremap <silent> c "+c
+vnoremap <silent> C "+C
+vnoremap <silent> x "+x
+vnoremap <silent> X "+X
+vnoremap <silent> s "+s
+vnoremap <silent> S "+S
+
+
+
+
+
+" insert mode mappings
 
 inoremap <silent> aj <ESC>
 inoremap <silent> a; <ESC>A;<ESC>
@@ -54,6 +95,10 @@ inoremap <silent> <C-v> <ESC>pa
 
 
 
+
+
+" normal mode mappings
+
 nnoremap <silent> j gj
 nnoremap <silent> k gk
 nnoremap <silent> <C-j> <C-e>gj
@@ -66,19 +111,6 @@ nnoremap <silent> <C-S-h> <C-w>h
 nnoremap <silent> <C-S-l> <C-w>l
 
 nnoremap <silent> <space> viw
-
-nnoremap <silent> y "+y
-nnoremap <silent> Y "+Y
-nnoremap <silent> p "+p
-nnoremap <silent> P "+P
-nnoremap <silent> d "+d
-nnoremap <silent> D "+D
-nnoremap <silent> c "+c
-nnoremap <silent> C "+C
-nnoremap <silent> x "+x
-nnoremap <silent> X "+X
-nnoremap <silent> s "+s
-nnoremap <silent> S "+S
 
 nnoremap <silent> z zz
 nnoremap <silent> <C-z> zz
@@ -104,20 +136,11 @@ nnoremap <silent> <C-]> }
 
 
 
-vnoremap <silent> <space> y/\V<C-r>"<CR>N
 
-vnoremap <silent> y "+y
-vnoremap <silent> Y "+Y
-vnoremap <silent> p "+p
-vnoremap <silent> P "+P
-vnoremap <silent> d "+d
-vnoremap <silent> D "+D
-vnoremap <silent> c "+c
-vnoremap <silent> C "+C
-vnoremap <silent> x "+x
-vnoremap <silent> X "+X
-vnoremap <silent> s "+s
-vnoremap <silent> S "+S
+
+" visual mode mappings
+
+vnoremap <silent> <space> y/\V<C-r>"<CR>N
 
 vnoremap <silent> i I
 vnoremap <silent> a A
