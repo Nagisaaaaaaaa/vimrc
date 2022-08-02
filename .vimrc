@@ -17,27 +17,27 @@
 
 " settings
 
-set expandtab         " replace \t with \s
-set tabstop=2         " width of \t
-set softtabstop=2     " insert mode indent width
-set shiftwidth=2      " normal and visual mode indent width
-set shiftround        " indent width is an integral multiple of `shiftwidth`
+set expandtab                      " replace \t with \s
+set tabstop=2                      " width of \t
+set softtabstop=2                  " insert mode indent width
+set shiftwidth=2                   " normal and visual mode indent width
+set shiftround                     " indent width is an integral multiple of `shiftwidth`
 
-set autoindent        " the new line uses the same indent style as the last line
-set smartindent       " braces automatically add indents
-set smarttab          " automatically judges indent width
-set cindent           " further optimize for c
+set autoindent                     " the new line uses the same indent style as the last line
+set smartindent                    " braces automatically add indents
+set smarttab                       " automatically judges indent width
+set cindent                        " further optimize for c
 
-set showmatch         " highlight brackets
+set showmatch                      " highlight brackets
 
-set noic              " do not ignore case
-set hlsearch          " search with highlight
-set incsearch         " jump to the first match while searching
+set noic                           " do not ignore case
+set hlsearch                       " search with highlight
+set incsearch                      " jump to the first match while searching
 
-set clipboard=unnamed " use system clipboard
-set history=1000      " use large history
+set clipboard^=unnamed,unnamedplus " use system clipboard
+set history=1000                   " use large history
 
-set ideajoin          " use Idea to join lines smartly
+set ideajoin                       " use Idea to join lines smartly
 
 
 
