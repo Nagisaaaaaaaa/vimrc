@@ -67,7 +67,18 @@ nnoremap <silent> <C-S-l> <C-w>l
 
 nnoremap <silent> <space> viw
 
+nnoremap <silent> y "+y
+nnoremap <silent> Y "+Y
 nnoremap <silent> p "+p
+nnoremap <silent> P "+P
+nnoremap <silent> d "+d
+nnoremap <silent> D "+D
+nnoremap <silent> c "+c
+nnoremap <silent> C "+C
+nnoremap <silent> x "+x
+nnoremap <silent> X "+X
+nnoremap <silent> s "+s
+nnoremap <silent> S "+S
 
 nnoremap <silent> z zz
 nnoremap <silent> <C-z> zz
@@ -96,6 +107,17 @@ nnoremap <silent> <C-]> }
 vnoremap <silent> <space> y/\V<C-r>"<CR>N
 
 vnoremap <silent> y "+y
+vnoremap <silent> Y "+Y
+vnoremap <silent> p "+p
+vnoremap <silent> P "+P
+vnoremap <silent> d "+d
+vnoremap <silent> D "+D
+vnoremap <silent> c "+c
+vnoremap <silent> C "+C
+vnoremap <silent> x "+x
+vnoremap <silent> X "+X
+vnoremap <silent> s "+s
+vnoremap <silent> S "+S
 
 vnoremap <silent> i I
 vnoremap <silent> a A
