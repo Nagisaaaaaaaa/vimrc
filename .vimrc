@@ -140,6 +140,11 @@ nnoremap <silent> <C-]> }
 
 " visual mode mappings
 
+vnoremap <silent> <C-j> <C-e>gj
+vnoremap <silent> <C-k> <C-y>gk
+vnoremap <silent> <C-h> ^
+vnoremap <silent> <C-l> $
+
 vnoremap <silent> <space> y/\V<C-r>"<CR>N
 
 vnoremap <silent> i I
