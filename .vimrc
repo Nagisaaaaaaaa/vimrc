@@ -77,9 +77,9 @@ vnoremap <silent> S "+S
 
 " insert mode mappings
 
-inoremap <silent> aj <ESC>
-inoremap <silent> a; <ESC>A;<ESC>
-inoremap <silent> a<BS> <ESC>A;<CR>
+inoremap <silent> fj <ESC>
+inoremap <silent> f; <ESC>A;<ESC>
+inoremap <silent> f<BS> <ESC>A;<CR>
 
 inoremap <silent> <C-j> <DOWN>
 inoremap <silent> <C-k> <UP>
