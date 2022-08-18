@@ -129,6 +129,10 @@ nnoremap <silent> G Gzz
 nnoremap <silent> <C-n> zc
 nnoremap <silent> <C-m> zo
 
+" Idea only
+nnoremap <silent> <C-=> :action EditorIncreaseFontSize<CR>zz
+nnoremap <silent> <C--> :action EditorDecreaseFontSize<CR>zz
+
 nnoremap <silent> <C-s> :w<CR>
 
 nnoremap <silent> <C-[> {
