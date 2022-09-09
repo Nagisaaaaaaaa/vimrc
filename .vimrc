@@ -79,7 +79,6 @@ vnoremap <silent> S "+S
 
 inoremap <silent> fj <ESC>
 inoremap <silent> f; <ESC>A;<ESC>
-inoremap <silent> f<BS> <ESC>A;<CR>
 
 inoremap <silent> <C-j> <DOWN>
 inoremap <silent> <C-k> <UP>
